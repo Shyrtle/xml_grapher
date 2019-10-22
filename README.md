@@ -1,2 +1,11 @@
-# xml_grapher
-This takes XML files output from a machine, and turns them into an easily readable graph. The files in the project folder will automatically be read and added to the web page list of graphs. As you click on an XML file, it will pull up a graph of the data. 
+### How to
+
+### Clone the repo
+
+### After cloning the repo on the machine you would like to run the XML files on, make sure that node is installed on the machine.
+
+### Restart the machine after installing node.
+
+### run npm install to install the packages required. 
+
+### run using node index.js
