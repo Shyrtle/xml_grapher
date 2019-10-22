@@ -28,3 +28,7 @@ Create a tarball with npm pack.
 Copy the tarball over to the machine without internet connection.
 
 Install the modules with npm install <filename>.
+
+### If you want the program to start automatically when windows starts up:
+
+add the "StartXML.bat" to the startup folder of windows. 
