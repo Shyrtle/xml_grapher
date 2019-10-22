@@ -83,8 +83,8 @@ function getListOfDatasets(xmlfiles){
 		var data = [];
     // console.log(datapoints.length)
     for (var j = 0; j < datapoints.length; j++) {
-      // console.log(datapoints[i].data);
-			if (datapoints[j].data != 0){
+      // console.log(datapoints[i].data); // This adds all data points regardless.
+			if (datapoints[j].data != 0){ // If statement adds data only if it is not 0. 
 				data.push(datapoints[j].data);
 			}
     }
