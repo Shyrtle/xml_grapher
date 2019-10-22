@@ -18,7 +18,7 @@ Add the node installer.exe to the machine. Run the installer. Make sure that "Ad
 
 After installation is complete, restart the machine.
 
-Move the node files from C:\Users\%username%\AppData\Roaming\npm-cache on the machine with internet to 
+Move the node files from C:\Users\\%username%\AppData\Roaming\npm-cache on the machine with internet to 
 the same location on the machine without internet.
 
 Run npm install to install your node files before packing, in the directory of the project folder. 
